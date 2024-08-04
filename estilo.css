@@ -1,0 +1,152 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e0f7fa;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.headertext {
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#fraseInspiracion {
+    color: #6a1b9a;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#nombreSuper {
+    margin-top: 0;
+    margin-right: 200px;
+}
+
+.Inicio {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.boton {
+    width: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: violet;
+}
+
+.boton:hover {
+    color: blue;
+}
+
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: aliceblue;
+}
+
+.Historia {
+    width: 400px;
+    height: auto;
+    margin: 20px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.Vision {
+    width: 400px;
+    height: auto;
+    margin: 20px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.TituloHistoria {
+    color: red;
+    font-size: 20px;
+    font-style: oblique;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.imagen1 {
+    margin: 45px 40px 40px 50px;
+    overflow: hidden;
+}
+
+.imagen1 img {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    border-radius: 8px;
+}
+
+.imagen1 img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.ofertas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: space-between;
+    padding: 20px;
+}
+
+.producto-img {
+    width: 150px;
+    height: 150px;
+    margin-left: 210px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.producto-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#textOf {
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 18px;
+    color: #4a0072;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #e0f7fa;
+    color: rgb(175, 4, 4);
+    font-size: 20px;
+    border-top: 1px solid #ccc;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
